@@ -2,7 +2,7 @@
         <p> Add a new plate!<p>
         <form action="/fries" method="POST">
             <div class="form-group">
-                <label for='fries'> Fries Name:</label>
+                <label for='fries'> Fries Name* :</label>
                 <input type="text" id='fries' name='fries_name' required> 
             </div>
             <div class="form-group">
@@ -37,7 +37,7 @@
         </div>
 
         <div class="remove-menu">
-            <h2> Itens removed </h2>
+            <h2> Items Removed </h2>
             {{#each fries}}
             {{#if this.eat}}
             <div class="items">
