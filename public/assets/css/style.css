@@ -1,0 +1,142 @@
+body {
+    background: url(../images/back2.png);
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+.container {
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.logo {
+    text-align: center;
+}
+
+.menu {
+    font-family: 'Courgette';
+    text-align: center;
+    padding: 15px 0 60px 0;
+}
+.menu h5 {
+    font-size: 55px;
+}
+.menu p {
+    font-family: 'Roboto', sans-serif;
+
+}
+.add-item {
+    text-align: center;
+    font-size: 20px;
+}
+.form-group{
+    display: inline;
+    font-size: 16px;
+}
+.btn-sub {
+    background-color: #e8503e;
+    border-radius: 10px;
+    color:#f3f3f3;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+.btn-sub:hover {
+    background-color: #e02d39
+}
+.menu-content {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+.current-menu, .remove-menu{
+    float: left;
+    width: 50%;
+    /* border: solid 1px gold; */
+}
+
+.current-menu{
+    border-right: 1px solid #e4e4e4
+}
+.remove-menu {
+    border-left: 1px solid #e4e4e4
+}
+.current-menu h2, .remove-menu h2 {
+    font-family: 'Courgette';
+}
+.items{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.fries-icon, .current-items, .remove-icon{
+    border-bottom: 2px solid #e4e4e4;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.fries-icon {
+    width: 10%
+}
+.current-items {
+    width: 80%
+}
+.remove-icon {
+    width: 10%;
+}
+.fries-icon img:hover {
+    transform: scale(1.2);
+
+}
+.remove-icon {
+    color:#e02d39;
+    padding-top: 15px;
+    font-size: 16px;
+}
+.remove-icon span:hover{
+    transform: scale(1.2);
+}
+.glyphicon-ok {
+    color:#008000;
+}
+.remove li{
+    opacity: 0.4;
+}
+
+.current-items li{
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-right: 20px;
+}
+
+.footer-wrapper {
+    color: #f3f3f3;
+    background-color: rgba(138, 148, 148, 0.20);
+    margin-top: auto;
+    width: 100%;
+}
+.foo {
+    float: left;
+    width: 33.3%;
+    padding: 0;
+    text-align: center;
+}
+.foo h4{
+    padding-left: 20px;
+}
+.footer-wrapper li{
+    list-style-type: none;
+}
+.copy {
+    text-align: center;
+    padding: 20px 0 20px 40px;
+}
+
+
+

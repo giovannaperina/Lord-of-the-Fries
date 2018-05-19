@@ -1,0 +1,60 @@
+<div class="add-item">
+        <p> Add a new plate!<p>
+        <form action="/fries" method="POST">
+            <div class="form-group">
+                <label for='fries'> Fries Name:</label>
+                <input type="text" id='fries' name='fries_name' required> 
+            </div>
+            <div class="form-group">
+                <label for='calories'> Calories:</label>
+                <input type="text" id='calories' name='calories'> 
+            </div>
+            <button class="btn-sub" type="submit"> + </button>
+        </form>
+
+    </div>
+
+    <div class="menu-content">
+        <div class="current-menu ">
+            <h2> Current Menu </h2>
+              {{#each fries}}
+                {{#unless eat}}
+            <div class="items">
+                <div class="fries-icon">
+                    <img src="assets/images/fries.png" width="30" height="30">
+                </div>
+                <div class="current-items">
+                    <ul>
+                        <li>{{this.fries_name}} - {{this.calories}}cal</li>
+                    </ul>
+                </div>
+                <div class="remove-icon">
+                    <span class="glyphicon glyphicon-remove" data-id={{this.id}}></span>
+                </div>
+            </div>
+            {{/unless}}
+        {{/each}}
+        </div>
+
+        <div class="remove-menu">
+            <h2> Itens removed </h2>
+            {{#each fries}}
+            {{#if this.eat}}
+            <div class="items">
+                <div class="fries-icon">
+                    <img src="assets/images/fries1.png" width="30" height="30">
+                </div>
+                <div class="current-items remove">
+                    <ul>
+                        <li>{{this.fries_name}}</li>
+                    </ul>
+                </div>
+                <div class="remove-icon">
+                    <span class="glyphicon glyphicon-ok" data-id={{this.id}}>
+                </div>
+            </div>
+            {{/if}}
+        {{/each}}
+        </div>
+    </div>
+</div>
