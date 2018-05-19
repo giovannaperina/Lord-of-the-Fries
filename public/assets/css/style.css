@@ -138,5 +138,28 @@ body {
     padding: 20px 0 20px 40px;
 }
 
+@media (max-width: 780px){
+    .current-menu, .remove-menu {
+        width: 100%; 
+        float: none;
+        margin-top: 40px;
+    }
+    .main-footer{
+        text-align: center;
+    }
+    .foo {
+        float: none;
+        width: 100%;
+        padding: 8px 0;
+        
+    }
+
+}
+@media (max-width: 650px){
+    .form-group{
+        display: block;
+    }
+}
+
 
 

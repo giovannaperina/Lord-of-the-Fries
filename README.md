@@ -16,6 +16,6 @@ This application demonstrates a simple full stack application with MySQL, Node, 
 ---
 
 ### Demo 
-<img src="public/assets/images/readme.gif" width="500">
+<img src="public/assets/images/readme.gif" width="600">
 
 OBS(the .gif decreased the quality on demo)
