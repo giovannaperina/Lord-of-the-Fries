@@ -1,6 +1,7 @@
 {
   "name": "lord-of-the-fries",
   "version": "1.0.0",
+  "engines":{"node": "9.5.0"},  
   "description": "",
   "main": "server.js",
   "scripts": {
