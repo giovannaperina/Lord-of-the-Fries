@@ -21,5 +21,5 @@ var routes = require("./controllers/fries_controller.js");
 app.use(routes);
 
 app.listen(PORT, function() {
-  console.log("Listening at localhost:" + PORT);
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
