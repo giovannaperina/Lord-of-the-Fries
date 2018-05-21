@@ -1,7 +1,9 @@
 {
   "name": "lord-of-the-fries",
   "version": "1.0.0",
-  "engines":{"node": "9.5.0"},  
+  "engines": {
+    "node": "9.5.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -23,6 +25,8 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
   }
-  
 }
