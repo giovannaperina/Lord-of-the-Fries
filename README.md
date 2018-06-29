@@ -1,7 +1,7 @@
  # Lord of the Fries <img src="public/assets/images/cookHat.png" width="30">
  The Lord of the Fries is a restaurant that allows the user to customize the menu! 
 
- Please check out the launched app on Heroku [Here](https://www.google.com)!
+ Please check out the launched app on Heroku [Here](https://pacific-sands-62565.herokuapp.com/)!
 
  ![mainPage](public/assets/images/mainPage.png)
 
