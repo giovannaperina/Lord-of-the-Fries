@@ -1,6 +1,6 @@
-INSERT INTO fries (fries_name, eat)
+INSERT INTO fries (fries_name, calories, eat)
 VALUES
-('Chili Cheese Fries', 'false'),
-('Pizza Fries', 'false'),
-('Pastrami Fries', 'false');
+('Chili Cheese Fries', 230, 'false'),
+('Pizza Fries',180, 'false'),
+('Pastrami Fries',200, 'false');
 
